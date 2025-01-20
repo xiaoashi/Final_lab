@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ### 模型执行
 1. 打开命令行终端，确保当前目录为项目根目录。
 2. 安装依赖库（如果尚未安装）：`pip install -r requirements.txt`
-3. 执行代码：`python multimodal_fusion_model.py`
+3. 执行代码：`python model.py`
 
 ### 输出结果
 预测完成后，`test_without_label.txt` 文件会自动更新，每行的情感标签将被替换为模型预测的结果，并保存到同一文件路径下。
